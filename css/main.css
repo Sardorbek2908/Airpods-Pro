@@ -1,0 +1,96 @@
+:root {
+    --dark: #282828;
+    --black: #151515;
+    --white: #fff;
+    --gray:#171718;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+.header-hero {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/Header.png) no-repeat center center / cover;
+}
+.site-header {
+    width: 100%;
+    height: 65px;
+    background-color: var(--dark);
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.container {
+    width: 1130px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo__img{
+    width: 100px;
+    height: 53px;
+}
+.site-list{
+    display: flex;
+    column-gap: 20px;
+}
+.site-item {
+    display: flex;
+    align-items: center;
+}
+.site-li__a {
+    color: var(--white);
+}
+.ul-btn {
+    display: flex;
+    column-gap: 23px;
+}
+
+.hader-h1 h1{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 250px;
+    margin-bottom: 38px;
+    align-items: center;
+}
+.airpods {
+    color: var(--white);
+    align-items: center;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 75px;
+}
+.header-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    background-color: var(--white);
+    column-gap: 11px;
+    border-radius: 10px;
+}
+.header-a {
+    color: var(--gray);
+    text-transform: uppercase;
+    column-gap: 10px;
+}
