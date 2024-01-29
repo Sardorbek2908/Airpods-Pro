@@ -110,7 +110,7 @@ ul {
 .container-cards {
     background-color: var(--black);
     width: 100%;
-    height: 100%;
+    height: 1300px;
 
 }
 
@@ -180,7 +180,7 @@ ul {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 .text3 {
     width: 100%;
@@ -193,6 +193,74 @@ ul {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+.card_1{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.img_after{
+    display: flex;
+    width: 61px;
+    height: 1px;
+    background-color: var(--white);
+    padding: 0 14px;
+    
+}
+
+.telefonlar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+section {
+    background-color: var(--black);
+    
+}
+
+.telefon {
+    width: 255px;
+    height: 312px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+
+}
+.telefon h1 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 2px;
+}
+.telefon p {
+    color: #0000008d;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    padding: 2px;
+}
+.telefon img {
+    display: flex;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.telefon button {
+    color: #FFF;
+    background: #000;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    margin: 0 auto;
+    width: 100px;
+    border: none;
+    padding: 6px;
+    justify-content: center;
+    margin-top: 5px;
 }
 
 .footer {
