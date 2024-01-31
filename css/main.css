@@ -157,11 +157,11 @@ ul {
     margin-top: 150px;
 }
 
-.card1 {
+.card2 {
     margin-bottom: 80px;
 }
 
-.p-text {
+.p-tex {
     color: var(--white);
     font-family: var(--Montserrat);
     font-size: 20px;
@@ -169,14 +169,14 @@ ul {
     width: 333px;
 }
 
-.site-item {
+.sites-item {
     margin-left: 14px;
     margin-right: 14px;
     width: 61px;
     height: 1px;
     background-color: var(--white);
 }
-.d-flx {
+.display-flx {
     display: flex;
     justify-content: center;
     align-items: center;
